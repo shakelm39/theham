@@ -1,0 +1,159 @@
+@media screen and (max-width:1200px){
+    .contact-grid-item h2{
+        margin-bottom: 1rem;
+        margin-top:0;
+      }
+      .contact-grid-item form{
+        margin-top: 4rem;
+        overflow: hidden;
+      }
+}
+@media screen and (max-width:1024px){
+    html{
+        font-size: 55%;
+    }
+    .main-nav ul li{
+        display: block;
+    }
+    .main-nav ul li a{
+        color:#fff;
+    }
+    .main-nav{
+        position: fixed;
+        background: #18cfab;
+        height: 100vh;
+        width: 30rem;
+        top: 0;
+        right: -30rem;
+        text-align: left;
+        z-index: 999;
+        transition:1s;
+    }
+    nav .fa{
+        display:block;
+        color: #fff;
+        cursor: pointer;
+        font-size:3rem;
+        right: 20rem;
+    }
+   
+    .main-nav ul li{
+        padding: 2rem;
+    }
+    .bars{
+       padding-top: 2rem;
+       position: absolute;
+       right: 10rem;
+       clear:both;
+    }
+    svg text {
+        font-size: 6rem;
+      }
+    .hero-content h3 {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    .hero-button {
+        margin-left: 12rem;
+    }
+    .service-btn {
+        width: 100%;
+      }
+      .role{
+        font-size: 1.2rem;
+      }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 30%;
+    }
+    svg text {
+        font-size: 5rem;
+      }
+      .hero-content {
+        top: 50%;
+      }
+      #hero{
+        height: 60vh;
+      }
+      svg{
+        height: 12rem;
+      }
+      .info-grid {
+        grid-template-columns:1fr 1fr;
+      }
+      .info-grid-item{
+        width: 100%;
+        margin: auto;
+      }
+      .features-grid{
+        grid-template-columns: 1fr 1fr;
+      }
+      .work-grid { 
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .news-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .count-grid {
+        grid-template-columns: repeat(2, 1fr);
+       
+      }
+      .price-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .price-grid-item{
+        margin-bottom: 2rem;
+      }
+      .service-btn {
+        width: 100%;
+        padding: 0 4rem;
+      }
+      .service-btn a{
+        font-size: 2rem;
+      }
+      .testimonial-section{
+        height: 60vh;
+      }
+}
+
+@media screen and (max-width:480px){
+    html{
+        font-size: 25%;
+    }
+    #hero{
+        height: 40vh;
+      }
+    .hero-content h3 {
+        font-size: 2rem;
+        text-align: center;
+      }
+      .hero-button {
+        margin-left: 18rem;
+    }
+    .service-btn {
+        width: 100%;
+      }
+      .testimonial-section {
+        height: 40vh;
+      }
+      .contact-grid{
+        grid-template-columns: 1fr;
+        padding: 6rem;
+      }
+      .contact-grid-item form{
+        width: 100%;
+        margin: auto;
+        margin-top: 6rem;
+      }
+      .contact-grid-item form input[type="text"],
+      .contact-grid-item form input[type="email"]{
+        width: 100%;
+      }
+      .contact-grid-item form textarea{
+        width: 100%;
+      }
+      .contact-btn{
+        width: 100%;
+      }
+}
